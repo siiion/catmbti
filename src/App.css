@@ -1,0 +1,8 @@
+.App {
+    font-family: "HSGooltokki";
+}
+
+@font-face {
+    font-family: "HSGooltokki";
+    src: url(/src/assets/fonts/HSGooltokki.ttf);
+}
