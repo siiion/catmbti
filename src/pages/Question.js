@@ -31,26 +31,6 @@ const Question = () => {
             navigate("/result");
         }
 
-        // if (type==="EI") {
-        //     // 기존 스코어에 더할 값을 계산(기존의 값 + 배점)
-        //     const addScore = totalScore[0].score + no;
-        //     // 새로운 객체
-        //     const newObject = { id: "EI", score: addScore};
-        //     // splice 통해 새로운 객체를 해당객체 자리에 넣어줌
-        //     totalScore.splice(0, 1, newObject);
-        // } else if (type==="SN") {
-        //     const addScore = totalScore[1].score + no;
-        //     const newObject = { id: "SN", score: addScore};
-        //     totalScore.splice(1, 1, newObject);
-        // } else if (type==="TF") {
-        //     const addScore = totalScore[2].score + no;
-        //     const newObject = { id: "TF", score: addScore};
-        //     totalScore.splice(2, 1, newObject);
-        // } else {
-        //     const addScore = totalScore[3].score + no;
-        //     const newObject = { id: "JP", score: addScore};
-        //     totalScore.splice(3, 1, newObject);
-        // }
     }
 
     return(
