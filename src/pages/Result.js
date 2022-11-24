@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { ResultData } from '../assets/data/resultdata';
+import KakaoShareButton from '../component/KakaoShareButton';
 
 const Result = () => {
     const navigate = useNavigate();
@@ -32,7 +33,8 @@ const Result = () => {
             <Button style={{fontFamily: "HSGooltokki", width: 170}} onClick={() => navigate("/")}>
             테스트 다시하기
             </Button>
-            <Button style={{fontFamily: "HSGooltokki", width: 170, marginLeft: '20px'}} onClick={() => navigate("/")}>
+            <KakaoShareButton />
+            <Button style={{fontFamily: "HSGooltokki", width: 170, marginLeft: '20px'}} >
             카카오톡 공유하기
             </Button>
             </ButtonGroup>
