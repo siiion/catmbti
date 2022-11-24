@@ -40,7 +40,7 @@ const KakaoShareButton = () => {
 
 
     return (
-        <Button style={{fontFamily: "HSGooltokki", width: 170, marginLeft: '20px'}} >
+        <Button onClick={shareKakao} style={{fontFamily: "HSGooltokki", width: 170, marginLeft: '20px'}} >
             카카오톡 공유하기
         </Button>
     )
