@@ -34,9 +34,6 @@ const Result = () => {
             테스트 다시하기
             </Button>
             <KakaoShareButton />
-            <Button style={{fontFamily: "HSGooltokki", width: 170, marginLeft: '20px'}} >
-            카카오톡 공유하기
-            </Button>
             </ButtonGroup>
         </Contents>
     </Wrapper>)
